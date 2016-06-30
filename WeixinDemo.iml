@@ -20,5 +20,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.30" level="application_server_libraries" />
+    <orderEntry type="library" name="commons-codec-1.10" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.7.19" level="project" />
+    <orderEntry type="library" name="fastjson-1.2.9" level="project" />
+    <orderEntry type="library" name="commons-cli-1.2" level="project" />
   </component>
 </module>
