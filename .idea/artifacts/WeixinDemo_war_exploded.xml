@@ -7,6 +7,14 @@
         <element id="directory" name="classes">
           <element id="module-output" name="WeixinDemo" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="retrofit-2.1.0" />
+          <element id="library" level="project" name="fastjson-1.2.9" />
+          <element id="library" level="project" name="slf4j-api-1.7.19" />
+          <element id="library" level="project" name="commons-codec-1.10" />
+          <element id="library" level="project" name="converter-gson-2.0.1" />
+          <element id="library" level="project" name="gson-2.6.1" />
+        </element>
       </element>
     </root>
   </artifact>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Access Key</title>
+    <script>
+        function updateKey() {
+            document.forms[0].action = 'updateKeyServlet';
+            document.forms[0].submit();
+        }
+        function getMaterial() {
+            document.forms[0].action = 'getMaterialServlet';
+            document.forms[0].submit();
+        }
+    </script>
+</head>
+<body>
+<form method="post" action="">
+    <input type="button" value="更新key" onclick="updateKey()"/><br />
+    <input type="text" name="materialType" />
+    <input type="button" value="获取素材列表" onclick="getMaterial()"/>
+</form>
+</body>
+</html>

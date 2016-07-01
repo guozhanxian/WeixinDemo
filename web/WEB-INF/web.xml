@@ -10,4 +10,21 @@
         <servlet-name>CoreServlet</servlet-name>
         <url-pattern>/coreServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateKey</servlet-name>
+        <servlet-class>com.ralph.weixin.web.UpdateKey</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateKey</servlet-name>
+        <url-pattern>/updateKeyServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GetMaterial</servlet-name>
+        <servlet-class>com.ralph.weixin.web.GetMaterial</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetMaterial</servlet-name>
+        <url-pattern>/getMaterialServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
